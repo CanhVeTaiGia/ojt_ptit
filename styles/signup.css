@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppin', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+}
+
+form {
+    display: flex;
+    position: relative;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    /* height: 70%; */
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+form h1{
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+form #title{
+    font-size: 24px;
+}
+
+form input{
+    /* position: relative; */
+    width: 100%;
+    height: 100%;
+    background-color: #fafafa;
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    padding-left: 10px;
+    outline: none;
+    display: flex;
+    align-items: center;
+    /* display: flex; */
+    /* align-items: end; */
+    /* color: ; */
+}
+
+span div #rememberMe{
+    width: 16px;
+    height: 20px;
+    /* border-radius: 50%; */
+    margin: 0;
+    border-color: #f0f0f0;
+    outline: none;
+    /* color: coral; */
+}
+
+form span{
+    margin-top: 10px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* align-self: start; */
+    /* margin-left: 25px; */
+    gap: 10px;
+    font-weight: 500;
+    width: 87%;
+}
+
+form span a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #ff9500;
+}
+
+form span div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+form .error{
+    display: none;
+    font-size: 12px;
+    align-self: start;
+    margin-left: 25px;
+    color: #d65d00;
+}
+
+form button{
+    /* display: flex; */
+    width: 87%;
+    /* align-self: flex-end; */
+    justify-self: end;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    /* position: absolute; */
+    color: #a6a6a6;
+    bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* form label{
+    position: absolute;
+} */
+
+form .input-label{
+    width: 87%;
+    height: 40px;
+    margin-top: 25px;
+}
+
+input::placeholder{
+    color: #a6a6a6;
+}
+
+input[type = "checkbox"]:checked{
+    content: "";
+    background: #d65d00;
+}
+
+form #errorAcc{
+    display: none;
+    font-size: 12px;
+    color: #d65d00;
+    margin-bottom: 20px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #ff9500;
+    color: #fff;
+}
+/* input:focus, input:valid{
+    outline: orange;
+} */

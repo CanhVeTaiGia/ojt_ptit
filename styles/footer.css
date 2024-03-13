@@ -1,0 +1,108 @@
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-self: end; */
+}
+
+footer .support{
+    padding-top: 20px;
+    background-color: #fcfbfb;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    color: rgba(0,0,0,.54);
+}
+
+footer .support div{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.support div h5{
+    color: black;
+    margin-bottom: 10px;
+}
+
+footer .support div a{
+    font-size: 12px;
+    font-weight: 300;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+footer .support div a:hover{
+    color: #ff0000;
+}
+
+footer .support .div{
+    display: flex;
+}
+
+.support .div .div2{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.support .div .div1{
+    display: flex;
+    padding-bottom: 10px;
+    /* width: 200px; */
+}
+
+.div .div1 .img-row{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+}
+
+.div .div2 .img-row{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+}
+
+div .img-row .img{
+    width: 62px;
+    padding: 4px;
+    background: #ffffff;
+    /* border: 1px solid lightgrey; */
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px rgb(146, 146, 146);
+}
+
+footer .support .follow-us{
+    display: flex;
+    gap: 15px;
+    /* justify-content: center; */
+    /* display: flex; */
+}
+
+.support .download .qr-apps{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.download .qr-apps .qr{
+    width: 90px;
+    box-shadow: 0.5px 0.5px rgb(146, 146, 146);
+}
+
+.download .qr-apps .apps{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.qr-apps .apps .app{
+    width: 70px;
+    /* height: 16px; */
+    background-color: #fff;
+    padding: 4px;
+    box-shadow: 1px 1px rgb(146, 146, 146);
+}

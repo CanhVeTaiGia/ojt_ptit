@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/signup.css">
+</head>
+<body>
+    <form id="form" action="">
+        <h1>TESTSHOP</h1>
+        <h1 id="title">Đăng ký</h1>
+        <div id="inputName" class="input-label">
+            <input id="inputn" placeholder="Tên" type="text">
+            <!-- <label id="name" for="">Họ và tên</label> -->
+        </div>
+        <div id="errorName" class="error">Họ và tên không được để trống</div>
+        <div id="inputEmail" class="input-label">
+            <input id="inpute" placeholder="Email" type="text">
+            <!-- <label id="email" for="">Email</label> -->
+        </div>
+        <div id="errorEmail" class="error">Email không được để trống</div>
+        <div id="inputPassword" class="input-label">
+            <input id="inputp" placeholder="Vui lòng nhập mật khẩu" type="password">
+            <!-- <label id="password" for="">Vui lòng nhập mật khẩu</label> -->
+        </div>
+        <div id="errorPassword" class="error">Mật khẩu không được trống</div>
+        <div id="inputRepassword" class="input-label">
+            <input id="inputrp" placeholder="Vui lòng nhập lại mật khẩu" type="password">
+            <!-- <label id="rePassword" for="">Vui lòng nhập lại mật khẩu</label> -->
+        </div>
+        <div id="errorRepassword" class="error">Mật khẩu xác nhận không được để trống</div>
+        <span><div><input type="checkbox" name="" id="rememberMe">Ghi nhớ tôi </div><a href="./signin.html">Đăng nhập</a></span>
+        <button type="submit">Đăng ký</button>
+        <div id="errorAcc">Tài khoản đã tồn tại</div>
+    </form>
+</body>
+<script src="../scripts/signup.js"></script>
+</html>

@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppin', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/signInbg/honkai-star-rail-login-screen-wallpaper-v0-zf4z6utfezua1.webp);
+    background-size: cover;
+}
+
+form{
+    position: absolute;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #eaeaea;
+    border-radius: 0 20px 0 0;
+    opacity: 0.99;
+    /* backdrop-filter: blur(50px); */
+    bottom: 5px;
+    left: 5px;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset; */
+}
+
+form input{
+    height: 40px;
+    width: 80%;
+    padding-left: 10px;
+    border: 2px solid #bcbcbc;
+    background-color: #fff;
+    outline: none;
+    /* color: black; */
+}
+
+
+form input::placeholder{
+    color: #bcbcbc;
+}
+
+#border{
+    position: relative;
+    width: 30%;
+    height: 55vh;
+    border: 1px solid #d7d7d7;
+    border-radius: 0 20px 0 0;
+}
+
+form #signUp{
+    width: 80%;
+    height: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+form #signUp a{
+    text-decoration: none;
+    color: #ff9500;
+    /* opacity: 1; */
+}
+
+form button{
+    width: 80%;
+    height: 50px;
+    border: none;
+    background-color: rgb(255, 204, 0);
+    font-size: 20px;
+}
+
+form #link{
+    display: flex;
+    width: 80%;
+    height: 40px;
+    justify-content: center;
+    gap: 30px;
+}
+
+form #link svg{
+    height: 100%;
+    width: 40px;
+}
+
+input:hover{
+    border: 2px solid rgb(255, 204, 0);
+}
+
+form .error{
+    position: absolute;
+    background-color: rgb(0 0 0);
+    opacity: 0.7;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px ;
+}
+
+form #wrongEmail{
+    width: 140px;
+    height: 30px;
+}
+
+form #wrongPassword{
+    width: 120px;
+    height: 30px;
+}
+
+form #signUp a:hover{
+    color: rgb(255, 186, 95);
+}
+
+form button:hover{
+    background-color: #ffd739;
+    cursor: pointer;
+}
